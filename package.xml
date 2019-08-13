@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>CommerceBees_ResidentialCommercial_Pro_v1</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://www.gnu.org/copyleft/gpl.html">GPL v4</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Residential/Commercial Pro is a Magento module to indicate whether the customers' addresses are Residential or Commercial &amp;amp;amp; get the Shipping Quotes according to the Address Type.</summary>
+    <description>Residential/Commercial Pro is a Magento module to indicate whether the customers' addresses are Residential or Commercial &amp;amp;amp; get the Shipping Quotes according to the Address Type.</description>
+    <notes>First version of Residential/Commercial Pro module is released.</notes>
+    <authors><author><name>Commerce Bees</name><user>CommerceBees</user><email>support@commercebees.com</email></author></authors>
+    <date>2015-02-01</date>
+    <time>03:47:42</time>
+    <contents><target name="magelocal"><dir name="Ameex"><dir name="ResidentialCommercial"><dir name="Model"><file name="FedEx.php" hash="c5b7539c4c29351fd6b6377c843840b8"/><file name="Observer.php" hash="7708480e975993ec675e2f9102e89d75"/><file name="Source.php" hash="77608aa477c523abbda558a9177169e4"/><file name="Ups.php" hash="92fe902b1e8f377daa3e5c06dcdf61ce"/></dir><dir name="etc"><file name="config.xml" hash="29526bb21940cd486ab83089c4453728"/></dir><dir name="sql"><dir name="residentialcommercial_setup"><file name="mysql4-install-1.0.0.php" hash="e633d4f217b48dfaf989a9abe38a76bb"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="checkout"><dir name="cart"><file name="shipping.phtml" hash="49a916adef85dfc63955cb86e757b5de"/></dir><dir name="onepage"><file name="shipping.phtml" hash="0ff10441ffffe7f6e985975c60c3a5f0"/></dir></dir><dir name="customer"><dir name="address"><file name="edit.phtml" hash="18dd866442451c96ddea75482b50662b"/></dir></dir><dir name="persistent"><dir name="checkout"><dir name="onepage"><file name="billing.phtml" hash="c3108813aa3bb6b37002abd1918aff87"/></dir></dir><dir name="customer"><dir name="form"><file name="register.phtml" hash="921d6cb47ca78ffb2d7e36d79d01d28b"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ameex_ResidentialCommercial.xml" hash="76359033ad34f894b590f98ba17f066c"/></dir></target><target name="mage"><dir name="."><file name="CommerceBees_ResidentialCommercialPro_Extension_Guide_V1.0.pdf" hash="1dd93807a55fa43675bfe1a1093255c5"/><file name="uninstall_ameex_residentialcommercial_module_bak.php" hash="452b8e6ecd47897e4df9166c1f75a3bc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>

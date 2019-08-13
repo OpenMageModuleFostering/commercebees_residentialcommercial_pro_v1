@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/CommerceBees_ResidentialCommercial_Pro_v1",
+    "type": "magento-module",
+    "license": "GPL-v4",
+    "homepage": "",
+    "description": "Residential/Commercial Pro is a Magento module to indicate whether the customers' addresses are Residential or Commercial &amp;amp; get the Shipping Quotes according to the Address Type.",
+    "authors": [
+    {
+        "name": "Commerce Bees",
+        "email": "support@commercebees.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
