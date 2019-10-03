@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Residential/Commercial Pro is a Magento module to indicate whether the customers' addresses are Residential or Commercial &amp;amp; get the Shipping Quotes according to the Address Type.
